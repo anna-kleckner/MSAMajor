@@ -59,5 +59,3 @@ class Automobile():
         print(f"{self.__year} {self.__make} {self.__model}")
         print(f"VIN: {self.__vin}, Engine Size: {self.__engine_size}")
         print(f"Owner: {self.__owner}\n")
-
-
