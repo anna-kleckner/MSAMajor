@@ -9,6 +9,7 @@ def get_get_coin_from_user():
             else:  
                 continue
         except:
+            print("Please enter a valid coin value (1, 5, 10,25)")
             continue
     return user_coin
 
